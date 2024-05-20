@@ -1,0 +1,155 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--main-color: #4856ee;
+	--background-main-color: #212529;
+	--card-background: #2a2d31;
+}
+
+.badge-vip {
+	background-color: var(--main-color) !important;
+}
+
+body {
+	background: var(--background-main-color);
+	border-radius: 5px;
+	color: #ffffff;
+	letter-spacing: 0.5px;
+}
+
+.navbar-logo {
+	position: relative;
+	bottom: 6px;
+}
+
+.btn-login {
+	background-color: var(--main-color);
+}
+
+.btn-premium {
+	border-radius: 30px;
+	border: 2px solid rgb(177, 177, 177);
+}
+
+.btn-premium:hover {
+	background-color: rgb(218, 218, 218);
+	border: 2px solid rgb(218, 218, 218);
+}
+
+.first-descreption {
+	color: var(--seacondry-color);
+	font-size: 17px;
+	line-height: 1rem;
+	text-transform: uppercase;
+}
+
+.card {
+	background-color: var(--card-background);
+}
+
+.btn-primary:hover {
+	background-color: #121b2c;
+	border: 1px solid #121b2c;
+}
+
+.help-tag {
+	background-color: var(--discord-color);
+	border-radius: 4px;
+	color: #ffffff;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+
+hr {
+	border: 1px solid #626bcc;
+}
+
+.search-box {
+	background-color: #2f2f30;
+	outline: none;
+	border-radius: 20px;
+	color: #ffffff;
+	padding: 10px 22px;
+	border: 2px solid #2f2f30;
+}
+
+.search-box:focus {
+	border: 2px solid var(--main-color);
+}
+
+.accordion-item {
+	background-color: var(--card-background);
+	border-radius: 8px !important;
+}
+
+.accordion-button {
+	background-color: #2f2f30 !important;
+	color: #ffffff !important;
+	border-radius: 8px !important;
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+	background-color: #212c42 !important;
+	color: #ffffff !important;
+}
+
+.command-descreption {
+	color: #bdbdbd;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	color: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--background-main-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--main-color);
+	border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #3c48c5;
+}
+
+::placeholder {
+	color: rgb(219, 219, 219);
+	opacity: 1;
+}
+
+
+/* Section de recherche */
+#searchInput {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #2f2f30;
+    color: #ffffff;
+    outline: none;
+	margin-bottom: 25px;
+}
+
+
+#general {
+	background-color: #2f2f30;
+	border-radius: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
+	margin-bottom: 20px; /* Ajout d'espace en bas */
+}
+
+#fun {
+	background-color: #2f2f30;
+	border-radius: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
+}
